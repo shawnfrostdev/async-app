@@ -1,0 +1,495 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.11.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:clean
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugResValues
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeLibDexDebug
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:buildKotlinToolingMetadata
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseResValues
+> Task :app:checkReleaseAarMetadata
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:mergeDebugNativeLibs
+> Task :app:generateReleaseResources
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libamplituda-native-lib.so, libandroidx.graphics.path.so, libavcodec-amplituda.so, libavformat-amplituda.so, libavutil-amplituda.so, libduktape.so, libswresample-amplituda.so.
+
+> Task :app:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:javaPreCompileRelease
+> Task :app:processReleaseManifestForPackage
+> Task :app:extractProguardFiles
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:processDebugManifestForPackage
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:parseReleaseLocalResources
+> Task :app:mergeReleaseNativeLibs
+> Task :app:mergeReleaseStartupProfile UP-TO-DATE
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseArtProfile
+> Task :app:mergeReleaseAssets
+
+> Task :app:stripReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libamplituda-native-lib.so, libandroidx.graphics.path.so, libavcodec-amplituda.so, libavformat-amplituda.so, libavutil-amplituda.so, libduktape.so, libswresample-amplituda.so.
+
+> Task :app:compressReleaseAssets
+> Task :app:extractReleaseVersionControlInfo
+> Task :app:extractReleaseNativeSymbolTables
+> Task :app:collectReleaseDependencies
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:sdkReleaseDependencyData
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:generateDebugAndroidTestResValues
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:javaPreCompileReleaseUnitTest
+> Task :app:processDebugResources
+> Task :app:mergeExtDexDebug
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :app:kspDebugKotlin
+> Task :app:convertLinkedResourcesToProtoRelease
+> Task :app:kspReleaseKotlin
+> Task :app:compileDebugKotlin
+> Task :app:compileReleaseKotlin
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicNotificationProvider.kt:34:40 'constructor(): CommandButton.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicNotificationProvider.kt:36:14 'fun setIconResId(p0: Int): CommandButton.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicNotificationProvider.kt:45:43 'constructor(): CommandButton.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicNotificationProvider.kt:47:14 'fun setIconResId(p0: Int): CommandButton.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicNotificationProvider.kt:57:42 'constructor(): CommandButton.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicNotificationProvider.kt:59:14 'fun setIconResId(p0: Int): CommandButton.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:106:25 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:114:25 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:124:25 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:136:29 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:164:45 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:203:33 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:208:33 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:214:33 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:218:33 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/di/AppModule.kt:75:14 'fun fallbackToDestructiveMigration(): RoomDatabase.Builder<AsyncDatabase>' is deprecated. Replace by overloaded version with parameter to indicate if all tables should be dropped or not.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/components/EditSongSheet.kt:285:56 'val Icons.Rounded.Notes: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Rounded.Notes.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/components/LyricsSheet.kt:150:65 'val Icons.Rounded.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Rounded.ArrowBack.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/components/LyricsSheet.kt:155:52 'fun centerAlignedTopAppBarColors(containerColor: Color = ..., scrolledContainerColor: Color = ..., navigationIconContentColor: Color = ..., titleContentColor: Color = ..., actionIconContentColor: Color = ...): TopAppBarColors' is deprecated. Use topAppBarColors instead.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/components/LyricsSheet.kt:162:25 'fun TabRow(selectedTabIndex: Int, modifier: Modifier = ..., containerColor: Color = ..., contentColor: Color = ..., indicator: @Composable() ComposableFunction1<@ParameterName(...) List<TabPosition>, Unit> = ..., divider: @Composable() ComposableFunction0<Unit> = ..., tabs: @Composable() ComposableFunction0<Unit>): Unit' is deprecated. Replaced with PrimaryTabRow and SecondaryTabRow.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/components/LyricsSheet.kt:170:61 'fun Modifier.tabIndicatorOffset(currentTabPosition: TabPosition): Modifier' is deprecated. Solely for use alongside deprecated TabRowDefaults.Indicator method. For recommended PrimaryIndicator and SecondaryIndicator methods, please use TabIndicatorScope.tabIndicatorOffset method.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/components/subcomps/LibraryActionRow.kt:120:64 'val Icons.Rounded.PlaylistAdd: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Rounded.PlaylistAdd.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/DailyMixScreen.kt:305:45 'val Icons.Rounded.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Rounded.ArrowBack.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/EditTransitionScreen.kt:63:44 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/EditTransitionScreen.kt:89:84 'fun String.capitalize(): String' is deprecated. Use replaceFirstChar instead.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/LibraryScreen.kt:289:17 'fun ScrollableTabRow(selectedTabIndex: Int, modifier: Modifier = ..., containerColor: Color = ..., contentColor: Color = ..., edgePadding: Dp = ..., indicator: @Composable() ComposableFunction1<@ParameterName(...) List<TabPosition>, Unit> = ..., divider: @Composable() ComposableFunction0<Unit> = ..., tabs: @Composable() ComposableFunction0<Unit>): Unit' is deprecated. Replaced with PrimaryScrollableTabRow and SecondaryScrollableTabRow tab variants.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/LibraryScreen.kt:296:53 'fun Modifier.tabIndicatorOffset(currentTabPosition: TabPosition): Modifier' is deprecated. Solely for use alongside deprecated TabRowDefaults.Indicator method. For recommended PrimaryIndicator and SecondaryIndicator methods, please use TabIndicatorScope.tabIndicatorOffset method.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/LibraryScreen.kt:1534:39 'val Icons.Rounded.PlaylistPlay: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Rounded.PlaylistPlay.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/MashupScreen.kt:242:17 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/MashupScreen.kt:320:17 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/SearchScreen.kt:197:17 'fun SearchBar(query: String, onQueryChange: (String) -> Unit, onSearch: (String) -> Unit, active: Boolean, onActiveChange: (Boolean) -> Unit, modifier: Modifier = ..., enabled: Boolean = ..., placeholder: @Composable() ComposableFunction0<Unit>? = ..., leadingIcon: @Composable() ComposableFunction0<Unit>? = ..., trailingIcon: @Composable() ComposableFunction0<Unit>? = ..., shape: Shape = ..., colors: SearchBarColors = ..., tonalElevation: Dp = ..., shadowElevation: Dp = ..., windowInsets: WindowInsets = ..., interactionSource: MutableInteractionSource? = ..., content: @Composable() ComposableFunction1<ColumnScope, Unit>): Unit' is deprecated. Use overload which takes inputField as a parameter.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/SearchScreen.kt:840:45 'val Icons.Rounded.PlaylistPlay: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Rounded.PlaylistPlay.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/SetupScreen.kt:104:26 'val LocalLifecycleOwner: ProvidableCompositionLocal<LifecycleOwner>' is deprecated. Moved to lifecycle-runtime-compose library in androidx.lifecycle.compose package.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/SetupScreen.kt:653:48 'val Icons.Rounded.ArrowForward: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Rounded.ArrowForward.
+w: file:///C:/Async/app/src/main/java/app/async/ui/theme/Theme.kt:81:20 'var statusBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/utils/LyricsUtils.kt:105:9 'fun ClickableText(text: AnnotatedString, modifier: Modifier = ..., style: TextStyle = ..., softWrap: Boolean = ..., overflow: TextOverflow = ..., maxLines: Int = ..., onTextLayout: (TextLayoutResult) -> Unit = ..., onClick: (Int) -> Unit): Unit' is deprecated. Use Text or BasicText and pass an AnnotatedString that contains a LinkAnnotation. Check LinkAnnotation's documentation for more details and samples.
+w: file:///C:/Async/app/src/main/java/app/async/utils/shapes/OtherShapes.kt:170:13 'fun quadraticBezierTo(x1: Float, y1: Float, x2: Float, y2: Float): Unit' is deprecated. Use quadraticTo() for consistency with cubicTo().
+w: file:///C:/Async/app/src/main/java/app/async/utils/shapes/OtherShapes.kt:174:13 'fun quadraticBezierTo(x1: Float, y1: Float, x2: Float, y2: Float): Unit' is deprecated. Use quadraticTo() for consistency with cubicTo().
+w: file:///C:/Async/app/src/main/java/app/async/utils/shapes/OtherShapes.kt:178:13 'fun quadraticBezierTo(x1: Float, y1: Float, x2: Float, y2: Float): Unit' is deprecated. Use quadraticTo() for consistency with cubicTo().
+
+> Task :app:compileDebugKotlin
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicNotificationProvider.kt:34:40 'constructor(): CommandButton.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicNotificationProvider.kt:36:14 'fun setIconResId(p0: Int): CommandButton.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicNotificationProvider.kt:45:43 'constructor(): CommandButton.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicNotificationProvider.kt:47:14 'fun setIconResId(p0: Int): CommandButton.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicNotificationProvider.kt:57:42 'constructor(): CommandButton.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicNotificationProvider.kt:59:14 'fun setIconResId(p0: Int): CommandButton.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:106:25 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:114:25 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:124:25 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:136:29 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:164:45 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:203:33 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:208:33 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:214:33 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/data/service/MusicService.kt:218:33 'fun onUpdateNotification(p0: MediaSession): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/di/AppModule.kt:75:14 'fun fallbackToDestructiveMigration(): RoomDatabase.Builder<AsyncDatabase>' is deprecated. Replace by overloaded version with parameter to indicate if all tables should be dropped or not.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/components/EditSongSheet.kt:285:56 'val Icons.Rounded.Notes: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Rounded.Notes.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/components/LyricsSheet.kt:150:65 'val Icons.Rounded.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Rounded.ArrowBack.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/components/LyricsSheet.kt:155:52 'fun centerAlignedTopAppBarColors(containerColor: Color = ..., scrolledContainerColor: Color = ..., navigationIconContentColor: Color = ..., titleContentColor: Color = ..., actionIconContentColor: Color = ...): TopAppBarColors' is deprecated. Use topAppBarColors instead.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/components/LyricsSheet.kt:162:25 'fun TabRow(selectedTabIndex: Int, modifier: Modifier = ..., containerColor: Color = ..., contentColor: Color = ..., indicator: @Composable() ComposableFunction1<@ParameterName(...) List<TabPosition>, Unit> = ..., divider: @Composable() ComposableFunction0<Unit> = ..., tabs: @Composable() ComposableFunction0<Unit>): Unit' is deprecated. Replaced with PrimaryTabRow and SecondaryTabRow.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/components/LyricsSheet.kt:170:61 'fun Modifier.tabIndicatorOffset(currentTabPosition: TabPosition): Modifier' is deprecated. Solely for use alongside deprecated TabRowDefaults.Indicator method. For recommended PrimaryIndicator and SecondaryIndicator methods, please use TabIndicatorScope.tabIndicatorOffset method.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/components/subcomps/LibraryActionRow.kt:120:64 'val Icons.Rounded.PlaylistAdd: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Rounded.PlaylistAdd.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/DailyMixScreen.kt:305:45 'val Icons.Rounded.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Rounded.ArrowBack.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/EditTransitionScreen.kt:63:44 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/EditTransitionScreen.kt:89:84 'fun String.capitalize(): String' is deprecated. Use replaceFirstChar instead.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/LibraryScreen.kt:289:17 'fun ScrollableTabRow(selectedTabIndex: Int, modifier: Modifier = ..., containerColor: Color = ..., contentColor: Color = ..., edgePadding: Dp = ..., indicator: @Composable() ComposableFunction1<@ParameterName(...) List<TabPosition>, Unit> = ..., divider: @Composable() ComposableFunction0<Unit> = ..., tabs: @Composable() ComposableFunction0<Unit>): Unit' is deprecated. Replaced with PrimaryScrollableTabRow and SecondaryScrollableTabRow tab variants.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/LibraryScreen.kt:296:53 'fun Modifier.tabIndicatorOffset(currentTabPosition: TabPosition): Modifier' is deprecated. Solely for use alongside deprecated TabRowDefaults.Indicator method. For recommended PrimaryIndicator and SecondaryIndicator methods, please use TabIndicatorScope.tabIndicatorOffset method.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/LibraryScreen.kt:1534:39 'val Icons.Rounded.PlaylistPlay: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Rounded.PlaylistPlay.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/MashupScreen.kt:242:17 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/MashupScreen.kt:320:17 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/SearchScreen.kt:197:17 'fun SearchBar(query: String, onQueryChange: (String) -> Unit, onSearch: (String) -> Unit, active: Boolean, onActiveChange: (Boolean) -> Unit, modifier: Modifier = ..., enabled: Boolean = ..., placeholder: @Composable() ComposableFunction0<Unit>? = ..., leadingIcon: @Composable() ComposableFunction0<Unit>? = ..., trailingIcon: @Composable() ComposableFunction0<Unit>? = ..., shape: Shape = ..., colors: SearchBarColors = ..., tonalElevation: Dp = ..., shadowElevation: Dp = ..., windowInsets: WindowInsets = ..., interactionSource: MutableInteractionSource? = ..., content: @Composable() ComposableFunction1<ColumnScope, Unit>): Unit' is deprecated. Use overload which takes inputField as a parameter.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/SearchScreen.kt:840:45 'val Icons.Rounded.PlaylistPlay: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Rounded.PlaylistPlay.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/SetupScreen.kt:104:26 'val LocalLifecycleOwner: ProvidableCompositionLocal<LifecycleOwner>' is deprecated. Moved to lifecycle-runtime-compose library in androidx.lifecycle.compose package.
+w: file:///C:/Async/app/src/main/java/app/async/presentation/screens/SetupScreen.kt:653:48 'val Icons.Rounded.ArrowForward: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Rounded.ArrowForward.
+w: file:///C:/Async/app/src/main/java/app/async/ui/theme/Theme.kt:81:20 'var statusBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///C:/Async/app/src/main/java/app/async/utils/LyricsUtils.kt:105:9 'fun ClickableText(text: AnnotatedString, modifier: Modifier = ..., style: TextStyle = ..., softWrap: Boolean = ..., overflow: TextOverflow = ..., maxLines: Int = ..., onTextLayout: (TextLayoutResult) -> Unit = ..., onClick: (Int) -> Unit): Unit' is deprecated. Use Text or BasicText and pass an AnnotatedString that contains a LinkAnnotation. Check LinkAnnotation's documentation for more details and samples.
+w: file:///C:/Async/app/src/main/java/app/async/utils/shapes/OtherShapes.kt:170:13 'fun quadraticBezierTo(x1: Float, y1: Float, x2: Float, y2: Float): Unit' is deprecated. Use quadraticTo() for consistency with cubicTo().
+w: file:///C:/Async/app/src/main/java/app/async/utils/shapes/OtherShapes.kt:174:13 'fun quadraticBezierTo(x1: Float, y1: Float, x2: Float, y2: Float): Unit' is deprecated. Use quadraticTo() for consistency with cubicTo().
+w: file:///C:/Async/app/src/main/java/app/async/utils/shapes/OtherShapes.kt:178:13 'fun quadraticBezierTo(x1: Float, y1: Float, x2: Float, y2: Float): Unit' is deprecated. Use quadraticTo() for consistency with cubicTo().
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:hiltAggregateDepsDebug
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:hiltJavaCompileDebug
+> Task :app:processDebugJavaRes
+> Task :app:hiltAggregateDepsRelease
+> Task :app:generateDebugLintReportModel
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:hiltJavaCompileRelease
+> Task :app:generateReleaseLintVitalReportModel
+> Task :app:processReleaseJavaRes
+> Task :app:transformDebugClassesWithAsm
+> Task :app:mergeDebugJavaResource
+> Task :app:transformReleaseClassesWithAsm
+> Task :app:generateDebugAndroidTestLintModel
+> Task :app:mergeReleaseJavaResource
+> Task :app:lintVitalAnalyzeRelease
+> Task :app:dexBuilderDebug
+> Task :app:mergeReleaseGeneratedProguardFiles
+> Task :app:mergeProjectDexDebug
+> Task :app:expandReleaseArtProfileWildcards
+> Task :app:generateDebugUnitTestLintModel
+> Task :app:bundleDebugClassesToRuntimeJar
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+> Task :app:bundleReleaseClassesToRuntimeJar
+> Task :app:bundleReleaseClassesToCompileJar
+> Task :app:kspDebugUnitTestKotlin
+> Task :app:lintVitalReportRelease SKIPPED
+> Task :app:lintVitalRelease SKIPPED
+> Task :app:kspReleaseUnitTestKotlin
+
+> Task :app:compileDebugUnitTestKotlin
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:41:110 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:42:111 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:46:48 No parameter with name 'pageSize' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:46:62 No parameter with name 'offset' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:46:62 No value passed for parameter 'allowedParentDirs'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:46:62 No value passed for parameter 'applyDirectoryFilter'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:59:50 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.collections.List<kotlin.String>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:59:53 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.Boolean' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:72:52 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.collections.List<kotlin.String>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:72:54 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.Boolean' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:80:116 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:84:111 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:105:102 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:106:106 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:107:110 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:111:44 No value passed for parameter 'allowedParentDirs'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:111:44 No value passed for parameter 'applyDirectoryFilter'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:49:13 No value passed for parameter 'lrcLibApiService'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:62:103 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:63:103 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:64:104 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:72:64 No parameter with name 'page' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:72:74 No parameter with name 'pageSize' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:76:40 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.collections.List<kotlin.String>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:76:44 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.Boolean' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:82:103 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:83:103 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:89:52 No parameter with name 'page' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:89:62 No parameter with name 'pageSize' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:97:103 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:103:52 No parameter with name 'page' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:103:62 No parameter with name 'pageSize' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:111:85 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:112:85 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:113:85 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:114:85 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:123:39 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.collections.List<kotlin.String>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:123:54 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.Boolean' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:128:48 No parameter with name 'page' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:128:58 No parameter with name 'pageSize' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:140:94 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:141:94 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:142:94 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:150:39 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.collections.List<kotlin.String>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:150:54 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.Boolean' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:155:49 No parameter with name 'page' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:155:59 No parameter with name 'pageSize' found.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:56:9 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:56:49 Unresolved reference 'globalThemePreferenceFlow'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:66:76 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:66:76 Argument type mismatch: actual type is 'kotlin.collections.List<T>', but 'kotlinx.coroutines.flow.Flow<kotlin.collections.List<android.net.Uri>>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:67:53 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:67:53 Too many arguments for 'fun getAudioFiles(): Flow<List<Song>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:67:60 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:67:60 Too many arguments for 'fun getAudioFiles(): Flow<List<Song>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:67:77 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:67:77 Argument type mismatch: actual type is 'kotlin.collections.List<T>', but 'kotlinx.coroutines.flow.Flow<kotlin.collections.List<app.async.data.model.Song>>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:68:49 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:68:49 Too many arguments for 'fun getAlbums(): Flow<List<Album>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:68:56 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:68:56 Too many arguments for 'fun getAlbums(): Flow<List<Album>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:68:73 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:68:73 Argument type mismatch: actual type is 'kotlin.collections.List<T>', but 'kotlinx.coroutines.flow.Flow<kotlin.collections.List<app.async.data.model.Album>>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:69:50 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:69:50 Too many arguments for 'fun getArtists(): Flow<List<Artist>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:69:57 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:69:57 Too many arguments for 'fun getArtists(): Flow<List<Artist>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:69:74 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:69:74 Argument type mismatch: actual type is 'kotlin.collections.List<T>', but 'kotlinx.coroutines.flow.Flow<kotlin.collections.List<app.async.data.model.Artist>>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:76:13 No value passed for parameter 'syncManager'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:76:13 No value passed for parameter 'songMetadataEditor'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:76:13 No value passed for parameter 'dailyMixManager'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:76:13 No value passed for parameter 'aiPlaylistGenerator'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:76:13 No value passed for parameter 'aiMetadataGenerator'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:97:78 Argument type mismatch: actual type is 'kotlin.collections.List<app.async.data.model.SearchResultItem.SongItem>', but 'kotlinx.coroutines.flow.Flow<kotlin.collections.List<app.async.data.model.SearchResultItem>>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:114:77 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:114:77 Argument type mismatch: actual type is 'kotlin.collections.List<T>', but 'kotlinx.coroutines.flow.Flow<kotlin.collections.List<app.async.data.model.SearchResultItem>>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:172:68 Unresolved reference 'isActive'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:221:71 Unresolved reference 'isActive'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:232:70 Unresolved reference 'isActive'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:254:229 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:255:229 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:256:226 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:257:229 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:258:229 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:259:216 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:260:220 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:261:238 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:262:236 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:266:57 Too many arguments for 'fun getAudioFiles(): Flow<List<Song>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:266:60 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:266:60 Too many arguments for 'fun getAudioFiles(): Flow<List<Song>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:266:77 Argument type mismatch: actual type is 'kotlin.collections.List<app.async.data.model.Song>', but 'kotlinx.coroutines.flow.Flow<kotlin.collections.List<app.async.data.model.Song>>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:296:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:296:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:307:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:307:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:317:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:317:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:321:29 Unresolved reference 'isEmpty'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:327:236 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:328:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:328:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:332:33 Unresolved reference 'isEmpty'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:335:33 Unresolved reference 'isEmpty'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:341:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:341:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:350:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:350:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:350:71 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:350:71 Not enough information to infer type argument for 'T'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:350:83 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:354:29 Unresolved reference 'isEmpty'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:360:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:360:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:370:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:370:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:374:29 Unresolved reference 'isEmpty'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:379:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:379:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:391:202 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:392:201 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:400:42 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:400:51 Unresolved reference 'it'.
+
+> Task :app:compileDebugUnitTestKotlin FAILED
+
+> Task :app:compileReleaseUnitTestKotlin FAILED
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:41:110 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:42:111 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:46:48 No parameter with name 'pageSize' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:46:62 No parameter with name 'offset' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:46:62 No value passed for parameter 'allowedParentDirs'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:46:62 No value passed for parameter 'applyDirectoryFilter'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:59:50 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.collections.List<kotlin.String>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:59:53 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.Boolean' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:72:52 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.collections.List<kotlin.String>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:72:54 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.Boolean' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:80:116 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:84:111 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:105:102 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:106:106 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:107:110 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:111:44 No value passed for parameter 'allowedParentDirs'.
+e: file:///C:/Async/app/src/test/java/app/async/data/database/MusicDaoTest.kt:111:44 No value passed for parameter 'applyDirectoryFilter'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:49:13 No value passed for parameter 'lrcLibApiService'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:62:103 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:63:103 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:64:104 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:72:64 No parameter with name 'page' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:72:74 No parameter with name 'pageSize' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:76:40 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.collections.List<kotlin.String>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:76:44 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.Boolean' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:82:103 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:83:103 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:89:52 No parameter with name 'page' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:89:62 No parameter with name 'pageSize' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:97:103 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:103:52 No parameter with name 'page' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:103:62 No parameter with name 'pageSize' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:111:85 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:112:85 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:113:85 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:114:85 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:123:39 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.collections.List<kotlin.String>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:123:54 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.Boolean' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:128:48 No parameter with name 'page' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:128:58 No parameter with name 'pageSize' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:140:94 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:141:94 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:142:94 No value passed for parameter 'parentDirectoryPath'.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:150:39 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.collections.List<kotlin.String>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:150:54 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.Boolean' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:155:49 No parameter with name 'page' found.
+e: file:///C:/Async/app/src/test/java/app/async/data/repository/MusicRepositoryImplTest.kt:155:59 No parameter with name 'pageSize' found.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:56:9 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:56:49 Unresolved reference 'globalThemePreferenceFlow'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:66:76 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:66:76 Argument type mismatch: actual type is 'kotlin.collections.List<T>', but 'kotlinx.coroutines.flow.Flow<kotlin.collections.List<android.net.Uri>>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:67:53 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:67:53 Too many arguments for 'fun getAudioFiles(): Flow<List<Song>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:67:60 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:67:60 Too many arguments for 'fun getAudioFiles(): Flow<List<Song>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:67:77 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:67:77 Argument type mismatch: actual type is 'kotlin.collections.List<T>', but 'kotlinx.coroutines.flow.Flow<kotlin.collections.List<app.async.data.model.Song>>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:68:49 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:68:49 Too many arguments for 'fun getAlbums(): Flow<List<Album>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:68:56 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:68:56 Too many arguments for 'fun getAlbums(): Flow<List<Album>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:68:73 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:68:73 Argument type mismatch: actual type is 'kotlin.collections.List<T>', but 'kotlinx.coroutines.flow.Flow<kotlin.collections.List<app.async.data.model.Album>>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:69:50 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:69:50 Too many arguments for 'fun getArtists(): Flow<List<Artist>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:69:57 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:69:57 Too many arguments for 'fun getArtists(): Flow<List<Artist>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:69:74 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:69:74 Argument type mismatch: actual type is 'kotlin.collections.List<T>', but 'kotlinx.coroutines.flow.Flow<kotlin.collections.List<app.async.data.model.Artist>>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:76:13 No value passed for parameter 'syncManager'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:76:13 No value passed for parameter 'songMetadataEditor'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:76:13 No value passed for parameter 'dailyMixManager'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:76:13 No value passed for parameter 'aiPlaylistGenerator'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:76:13 No value passed for parameter 'aiMetadataGenerator'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:97:78 Argument type mismatch: actual type is 'kotlin.collections.List<app.async.data.model.SearchResultItem.SongItem>', but 'kotlinx.coroutines.flow.Flow<kotlin.collections.List<app.async.data.model.SearchResultItem>>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:114:77 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:114:77 Argument type mismatch: actual type is 'kotlin.collections.List<T>', but 'kotlinx.coroutines.flow.Flow<kotlin.collections.List<app.async.data.model.SearchResultItem>>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:172:68 Unresolved reference 'isActive'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:221:71 Unresolved reference 'isActive'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:232:70 Unresolved reference 'isActive'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:254:229 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:255:229 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:256:226 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:257:229 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:258:229 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:259:216 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:260:220 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:261:238 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:262:236 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:266:57 Too many arguments for 'fun getAudioFiles(): Flow<List<Song>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:266:60 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:266:60 Too many arguments for 'fun getAudioFiles(): Flow<List<Song>>'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:266:77 Argument type mismatch: actual type is 'kotlin.collections.List<app.async.data.model.Song>', but 'kotlinx.coroutines.flow.Flow<kotlin.collections.List<app.async.data.model.Song>>' was expected.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:296:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:296:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:307:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:307:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:317:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:317:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:321:29 Unresolved reference 'isEmpty'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:327:236 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:328:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:328:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:332:33 Unresolved reference 'isEmpty'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:335:33 Unresolved reference 'isEmpty'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:341:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:341:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:350:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:350:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:350:71 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:350:71 Not enough information to infer type argument for 'T'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:350:83 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:354:29 Unresolved reference 'isEmpty'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:360:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:360:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:370:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:370:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:374:29 Unresolved reference 'isEmpty'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:379:43 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:379:52 Unresolved reference 'it'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:391:202 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:392:201 No value passed for parameter 'album'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:400:42 Unresolved reference 'update'.
+e: file:///C:/Async/app/src/test/java/app/async/presentation/viewmodel/PlayerViewModelTest.kt:400:51 Unresolved reference 'it'.
+
+> Task :app:minifyReleaseWithR8
+> Task :app:lintAnalyzeDebug
+> Task :app:lintAnalyzeDebugAndroidTest
+> Task :app:lintAnalyzeDebugUnitTest
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:compileDebugUnitTestKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:compileReleaseUnitTestKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+BUILD FAILED in 6m 30s
+104 actionable tasks: 103 executed, 1 up-to-date
